@@ -83,9 +83,11 @@ vault kv list secret
   
 
 Check data if secret is injected or not in the pod
-
  
 kubectl exec -it <pod name> -n vault -- ls /vault/secrets/
 kubectl exec -it <pod name> -n vault -- cat /vault/secrets/clisecret
 kubectl exec -it <pod name> -n vault -- cat /vault/secrets/uisecret
-  
+
+
+Play with K8s Simulator
+https://killercoda.com/
