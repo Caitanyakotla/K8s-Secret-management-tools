@@ -91,3 +91,10 @@ kubectl exec -it <pod name> -n vault -- cat /vault/secrets/uisecret
 
 Play with K8s Simulator
 https://killercoda.com/
+
+
+Install tflint 
+
+Install tfsec
+
+Install tfupdate
